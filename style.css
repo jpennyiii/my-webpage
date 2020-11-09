@@ -1,0 +1,146 @@
+html{
+    height: 800px;
+    margin: 0px;
+}
+body{
+    margin:0px;
+    background: lightblue url("bgimage.jpg") no-repeat fixed center;
+    z-index: 9;
+}
+.buttonc {
+    width: 200px;
+    height: 45px;
+    border-radius:10px 0px 0px 10px;
+    background-color: aquamarine;
+    position: absolute;;
+    top: 140px; left: 220px;
+    overflow: hidden;
+    padding-top:8px;
+    font-size:  20px;
+}
+.buttona{
+    width: 200px;
+    height: 45px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px; left: 418px;
+    overflow: hidden;
+    padding-top:8px;
+    font-size:  20px;
+}
+.buttonm{
+    width: 200px;
+    height: 45px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px; left: 616px;
+    overflow: hidden;
+    padding-top:8px;
+    font-size:  20px;
+}
+.buttone{
+    width: 200px;
+    height: 45px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px; left: 814px;
+    overflow: hidden;
+    padding-top:8px;
+    font-size:  20px;
+}
+.buttonl{
+    width: 200px;
+    height: 45px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 140px; left: 1012px;
+    border-radius: 00px 10px 10px 0px;
+    overflow: hidden;
+    padding-top:8px;
+    font-size:  20px;
+}
+.buttona:hover,.buttonc:hover,.buttone:hover,.buttonl:hover,.buttonm:hover{
+    height:100px;
+    transition:0.5s;
+}
+.buttona:hover,.buttonc:hover,.buttone:hover,.buttonl:hover,.buttonm:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(8, 224, 105);
+    top:100px;
+    
+}
+.buttonc:focus,.buttona:focus,.buttonm:focus,.buttone:focus,.buttonl:focus{
+    border-radius: 20px 20px 20px 20px;
+    background-color:rgb(8, 224, 105);
+    top:100px;
+    height:100px;
+}
+.buttons .firstletter{
+    border-radius: 50%;
+    position: relative;
+    left:70px;
+    text-align: center;
+    background-color:orange;
+    width:30px;
+}
+.buttona,.buttonc,.buttonm,.buttone,.buttonl{
+    z-index: 2;
+}
+.buttons{
+    position: absolute;
+    left: 50px;
+}
+.vege{
+    text-align:center;  
+}
+.content{
+    z-index: 3;
+    background-color:rgb(8, 224, 105);
+    height:500px;
+    position: absolute; 
+    top:220px;
+    left:300px;
+    border-radius: 10px;
+    width: 950px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.bottom{
+    background-color: black;
+    height:50px;
+    width:1348px;
+    opacity:0.5;
+    position: absolute;
+    bottom: 0px;
+    top:722px;
+}
+#myframe{
+    z-index: 4;
+    position: relative;
+    left: 170px;
+    top:10px;
+}
+.ar{
+    z-index: 6;
+    color:white;
+    position: relative;
+    left:650px;
+    top:10px;
+}
+#rocket{
+    width: 240px;
+    height:480px;
+    position: absolute;
+    left:20px;
+    top:200px;
+    border-radius: 20px;
+}
+#camel{
+    color:white;
+    position: absolute;
+    z-index: 6;
+    font-size:20px;
+    right:20px;
+}
+a{
+    color:white;
+}
